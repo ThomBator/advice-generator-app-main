@@ -1,0 +1,89 @@
+
+
+body {
+    height: 100vh;
+    font-family: Manrope;
+    background-color: black; 
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+   
+}
+    
+
+h1 {
+    font-size: 28px;
+    color: hsl(193, 38%, 86%); 
+    
+}
+
+h4 {
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+    color: hsl(150, 100%, 66%);
+    font-weight: 400;
+}
+
+main {
+    height: 98vh;
+    min-width: 320px;
+    width: 100%;
+    background-color: hsl(220,22%,16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+    
+
+}
+
+
+
+
+@media screen and (max-width: 1029px) {
+
+    #patternDesktopContainer {
+        display: none;
+    }
+   
+    
+}
+
+@media screen and (min-width: 1030px) {
+
+    #patternMobileContainer {
+        display: none;
+    }
+}
+#card {
+    display: flex; 
+    flex-wrap: wrap;
+    min-width: 300px; 
+    max-width: 800px;
+    width: 50%;
+   
+    background-color: hsl(218,20%,24%);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 10px;
+
+
+}
+
+#cardContent {
+   flex-grow: 1; 
+   min-width: 100%;
+   
+}
+
+
+#diceCircle {
+    
+    
+    background-color: rgb(82, 255, 168);
+
+}
+
